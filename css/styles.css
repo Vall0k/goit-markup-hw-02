@@ -1,19 +1,39 @@
-body {
-  background-color: #fff;
-  color:#757575;
-}
-/* Применится ко всем абзацам на странице */
-p {
-  font-size: 24px;
-}
-
-/* Применится ко всем ссылкам на странице */
-a {
-  text-decoration: none;
-}
 /* цвет основного текста #000000 */
+/* цвет фона #FFFFFF */
 /* первичный цвет преимущества #212121 */
 /* вторичный цвет текста преимуществ #757575 */
-/* белый #FFFFFF */
 /* акцент #2196F3 */
-
+body {
+  color: black;
+  background-color: #fff;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+.logo-web {
+  color: #2196f3;
+}
+.site-nav .page {
+  color: black;
+}
+.site-nav .page:hover,
+.site-nav .page:focus {
+  color: #2196F3;
+}
+.contacts .contacts-mail {
+  color: #757575;
+}
+.contacts .contacts-mail:hover,
+.contacts .contacts-mail:focus {
+  color: #2196F3;
+}
+.contacts .contacts-tel {
+  color: #757575;
+}
+.contacts .contacts-tel:hover,
+.contacts .contacts-tel:focus {
+  color: #2196F3;
+}

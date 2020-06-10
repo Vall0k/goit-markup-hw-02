@@ -1,12 +1,12 @@
-/* цвет основного текста #000000 */
+/* цвет основного текста #212121 */
 /* цвет фона #FFFFFF */
-/* первичный цвет преимущества #212121 */
-/* вторичный цвет текста преимуществ #757575 */
+/* вторичный цвет текста #757575 */
 /* акцент #2196F3 */
 body {
-  color: black;
+  color: #212121;
   background-color: #fff;
 }
+/*index*/
 /*header*/
 .logo {
   font-family: Raleway;
@@ -17,8 +17,8 @@ body {
 .logo-web {
   color: #2196f3;
 }
-.site-nav .page {
-  color: black;
+.page {
+  color: inherit;
 }
 .site-nav .page:hover,
 .site-nav .page:focus {
@@ -38,6 +38,23 @@ body {
 .contacts .contacts-tel:focus {
   color: #2196F3;
 }
+/*hero*/
+.hero,
+.hero-link {
+  color: #fff;
+}
+/*преимущества*/
+.details-desc {
+  color: #757575;
+}
+/*услуги*/
+.services-features {
+  color: #fff;
+}
+/*команда*/
+.employees-position {
+  color: #757575;
+}
 /*футер*/
 .logo-studio {
   color: #fff;
@@ -45,4 +62,23 @@ body {
 .button:hover,
 .button:focus {
   color: #2196F3;
+}
+.footer-adress {
+  color: #fff;
+}
+.footer-join-in {
+  color: #fff;
+}
+.footer-subscribe {
+  color: #fff;
+}
+.footer-subscribe-button {
+  color: #fff;
+}
+.footer-mail,
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+.author {
+  color: rgba(255, 255, 255, 0.4);
 }

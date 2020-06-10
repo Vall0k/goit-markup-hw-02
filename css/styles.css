@@ -82,3 +82,14 @@ body {
 .author {
   color: rgba(255, 255, 255, 0.4);
 }
+
+/*портфолио*/
+.project {
+  color: black;
+}
+.project-type {
+  color: #757575;
+}
+.project-desc {
+  color: white;
+}

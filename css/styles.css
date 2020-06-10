@@ -7,6 +7,7 @@ body {
   color: black;
   background-color: #fff;
 }
+/*header*/
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -37,8 +38,11 @@ body {
 .contacts .contacts-tel:focus {
   color: #2196F3;
 }
-
-.link:hover
-.link:focus {
- color: #2196F3;
+/*футер*/
+.logo-studio {
+  color: #fff;
+}
+.button:hover,
+.button:focus {
+  color: #2196F3;
 }

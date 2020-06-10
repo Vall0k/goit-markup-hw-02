@@ -2,11 +2,18 @@
 /* цвет фона #FFFFFF */
 /* вторичный цвет текста #757575 */
 /* акцент #2196F3 */
-body {
-  color: #212121;
-  background-color: #fff;
+
+:root {
+--primary-text-color: #212121; 
+--secondary-text-color: #757575;
+--accent-color: #2196f3;
 }
-/*index*/
+
+body {
+    background-color: #fff;
+  color: var(--primary-text-color);
+}
+/*веб студио*/
 /*header*/
 .logo {
   font-family: Raleway;
@@ -17,26 +24,29 @@ body {
 .logo-web {
   color: #2196f3;
 }
+.header-logo-studio {
+  color: black;
+}
 .page {
   color: inherit;
 }
 .site-nav .page:hover,
 .site-nav .page:focus {
-  color: #2196F3;
+  color: var(--accent-color);
 }
 .contacts .contacts-mail {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .contacts .contacts-mail:hover,
 .contacts .contacts-mail:focus {
-  color: #2196F3;
+  color: var(--accent-color);
 }
 .contacts .contacts-tel {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .contacts .contacts-tel:hover,
 .contacts .contacts-tel:focus {
-  color: #2196F3;
+  color: var(--accent-color);
 }
 /*hero*/
 .hero,
@@ -45,7 +55,7 @@ body {
 }
 /*преимущества*/
 .details-desc {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 /*услуги*/
 .services-features {
@@ -53,7 +63,7 @@ body {
 }
 /*команда*/
 .employees-position {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 /*футер*/
 .logo-studio {
@@ -61,7 +71,7 @@ body {
 }
 .button:hover,
 .button:focus {
-  color: #2196F3;
+  color: var(--accent-color);
 }
 .footer-adress {
   color: #fff;
@@ -85,10 +95,10 @@ body {
 
 /*портфолио*/
 .project {
-  color: black;
+  color: var(--primary-text-color);
 }
 .project-type {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .project-desc {
   color: white;

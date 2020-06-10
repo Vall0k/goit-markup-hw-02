@@ -37,3 +37,8 @@ body {
 .contacts .contacts-tel:focus {
   color: #2196F3;
 }
+
+.link:hover
+.link:focus {
+ color: #2196F3;
+}

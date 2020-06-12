@@ -4,10 +4,10 @@
 /* акцент #2196F3 */
 
 :root {
---primary-text-color: #212121; 
---secondary-text-color: #757575;
---accent-color: #2196f3;
---primary-white-color: #FFFFFF;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
 }
 
 body {
@@ -48,9 +48,9 @@ body {
 }
 
 .site-nav {
-font-weight: 500;
-letter-spacing: 0.02em;
-list-style: none;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  list-style: none;
 }
 
 .site-nav .page:hover,
@@ -71,6 +71,7 @@ list-style: none;
   font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none;
+  list-style: none;
 }
 
 .contacts .contacts-mail:hover,
@@ -83,6 +84,7 @@ list-style: none;
   font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none;
+  list-style: none;
 }
 
 .contacts .contacts-tel:hover,
@@ -112,19 +114,23 @@ list-style: none;
 .services {
   font-size: 36px;
   line-height: 1.16;
+  font-weight: 700;
   text-align: center;
 }
 
 .services-features {
   color: #fff;
+  font-weight: bold;
   text-decoration: none;
+  list-style: none;
 }
 
 /*команда*/
 .employees {
   font-size: 36px;
-line-height: 1.16;
-text-align: center;
+  line-height: 1.16;
+  font-weight: 700;
+  text-align: center;
 }
 
 .name {
@@ -141,6 +147,7 @@ text-align: center;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  font-weight: 700;
 }
 
 /*футер*/
@@ -173,10 +180,16 @@ text-align: center;
 }
 
 /*портфолио*/
+.portfolio {
+  text-decoration: none;
+  list-style: none;
+}
+
 .project {
   color: var(--primary-text-color);
   font-size: 18px;
-  line-height: 2.0;
+  line-height: 2;
+  font-weight: 700;
   letter-spacing: 0.06em;
   text-decoration: none;
 }
@@ -185,6 +198,7 @@ text-align: center;
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.88;
+
   text-decoration: none;
 }
 
@@ -197,20 +211,23 @@ text-align: center;
 
 /*button*/
 .button-veb {
- color: var(--primary-white-color);
- background-color: var(--accent-color);
- font-size: 16px;
- line-height: 1.87;
- letter-spacing: 0.06em;
- text-decoration: none;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-decoration: none;
 }
 
 .button-demo {
   color: var(--primary-text-color);
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-decoration: none;
+  list-style: none;
 }
 
 .button-demo:hover,
@@ -219,11 +236,10 @@ text-align: center;
   color: var(--primary-white-color);
 }
 
- .button-footer {
+.button-footer {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   font-size: 16px;
   line-height: 1.88;
   text-decoration: none;
 }
-
